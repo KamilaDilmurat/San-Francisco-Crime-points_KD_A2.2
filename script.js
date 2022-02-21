@@ -21,5 +21,5 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext
 	  return L.marker(latlng,{icon: ratIcon});
     }
   } 
- L.geoJson(data).addTo(map);
+ L.geoJson(data).addTo(SFcrime);
   });
